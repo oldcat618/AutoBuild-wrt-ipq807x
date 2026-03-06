@@ -9,6 +9,8 @@
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
+sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
+sed -i '$a src-git qmodem https://github.com/FUjr/QModem.' feeds.conf.default
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate
