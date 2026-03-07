@@ -8,7 +8,7 @@ on:
 
 env:
   TZ: Asia/Shanghai
-  REPO_URL: https://github.com/Jim78778/openwrt-ipq.git
+  REPO_URL: https://github.com/oldcat618/s10-wrt.git
   REPO_BRANCH: swaiot-s10
   CONFIG_FILE: ci.config
   DIY_SCRIPT: diy-part1.sh
